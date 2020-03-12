@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #0b5077;
+}
+
+#filter {
+  height: 50px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-left: 100px;
+}
+
+input[type="text"] {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: #1c8bcc;
+  border: none;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  vertical-align: center;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0b5077;
+  text-align: center;
+} 
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 40px;
+  padding: 5px;
+  background-color: #7b9db1;
+}
+
+.cardImg {
+  width: 200px;
+}
+
+.cardImg img {
+  width: 100%;
+  height: auto;
+}
+
+#cardTitle h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+}
